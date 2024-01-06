@@ -1,1 +1,1 @@
-# Correstion du canal 2 international
+# Correction du projet canal 2 international
