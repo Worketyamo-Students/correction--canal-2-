@@ -223,6 +223,7 @@ body {
 
 .article a .text h3 {
     color: var(--neutral-color-one);
+    font-family: var(--font-IBM);
     font-size: 1.6rem;
 }
 
