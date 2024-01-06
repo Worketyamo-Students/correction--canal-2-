@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    --primary-color: #618264;
+    --secondary-color: #443434;
+    --active-color: #79AC78;
+    --neutral-color-one: #000E01;
+    --neutral-color-two: #fff;
+    --padding: 2rem 6.5rem;
+    --font-size-default: 10px;
+    --font-IBM: 'IBM Plex Sans', sans-serif;
+    --font-INTER: 'Inter', sans-serif;
+    --font-open-sans: 'Open Sans', sans-serif;
+}
+
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    border: none;
+    font-size: var(--font-size-default);
+}
+
+body {
+    border: none;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100%;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--padding);
+}
+
+.nav-bar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 50rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-bar ul a {
+    text-decoration: none;
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    color: var(--neutral-color-one);
+    font-family: var(--font-INTER);
+    font-weight: 400;
+}
+
+.nav-bar button {
+    color: var(--neutral-color-two);
+    background: var(--primary-color);
+    padding: 0.8rem 2rem;
+    font-size: 1.6rem;
+    font-family: var(--font-INTER);
+    font-weight: 700;
+}
+
+
+
+
